@@ -19,7 +19,7 @@
     "repository": "https://github.com/pyKinsu/Tele-Filter-Bot/",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "8365580271:AAHVP1CFZMt7JQ_nFGXUBgCxGWhkOmEMMEw",
             "required": true
         },
         "API_ID": {
@@ -43,7 +43,7 @@
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "Bot Logs, give a channel id with -100xxxxxxx.",
+            "description": "Bot Logs, give a channel id with -1002637406953.",
             "required": true
         },
         "DATABASE_URI": {
