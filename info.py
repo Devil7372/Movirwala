@@ -28,7 +28,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = environ.get(
     'PICS',
-    'https://envs.sh/R3g.jpg https://envs.sh/R3H.jpg https://envs.sh/R3N.jpg https://envs.sh/R3v.jpg https://envs.sh/R39.jpg'
+    'https://i.ibb.co/JjpD1fZr/x.jpg https://i.ibb.co/kVY3Z4GN/x.jpg https://i.ibb.co/Z6Cy0xSx/x.jpg https://i.ibb.co/rGsKZN84/x.jpg https://i.ibb.co/N6wsF6tN/x.jpg https://i.ibb.co/xK2nDd96/x.jpg'
 ).split()
 
 NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/R3g.jpg")
@@ -50,8 +50,8 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002317832654')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002505094282')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002191269016')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001963379708')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
@@ -74,18 +74,18 @@ MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled(environ.get('MAX_BTN', "True"), True)
 PORT = environ.get("PORT", "8080")
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ur_movie_group')
-SPRT_CHNL = environ.get('SPRT_CHNL', 'https://t.me/kissuxbots')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/kissuxbots')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/bot_making_tips')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+z1ZaHp8aVUo1ZDg1')
+SPRT_CHNL = environ.get('SPRT_CHNL', 'https://t.me/BOTxUPDATE')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BOTxUPDATE')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/BOTxUPDATE')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/kissuxbots')
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 𓆩•𝐊𝐢𝐬𝐬𝐮💞•𓆪')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/BOTxUPDATE')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ᴅᴇᴠɪʟ ᴏᴡɴᴇʀ')
 
 
 # ─── Display Configurations ─────────────────────────────
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ""))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'kissuhelp')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1002412832033"))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ogBestFriends')
 
 P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 IMDB = is_enabled(environ.get('IMDB', "True"), False)
@@ -96,7 +96,7 @@ SINGLE_BUTTON = is_enabled(environ.get('SINGLE_BUTTON', "True"), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
-REQ_GRP = environ.get('REQ_GRP', 'https://t.me/ur_movie_group')
+REQ_GRP = environ.get('REQ_GRP', 'https://t.me/+z1ZaHp8aVUo1ZDg1')
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
