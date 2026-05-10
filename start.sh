@@ -10,7 +10,7 @@ pip install -U pip
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/pyKinsu/Tele-Filter-Bot /Tele-Filter-Bot
+  git clone https://github.com/Devil7372/Movirwala /Tele-Filter-Bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Tele-Filter-Bot
