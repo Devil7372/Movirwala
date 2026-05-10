@@ -1,6 +1,6 @@
 {
     "name": "Tele-Filter-Bot",
-    "description": "A simple telefilter bot created by @pykinsu.",
+    "description": "A simple telefilter bot created by @xaepm.",
     "stack": "container",
     "keywords": [
         "telegram",
@@ -15,8 +15,8 @@
         "index",
         "inline"
     ],
-    "website": "https://t.me/kissuxbots",
-    "repository": "https://github.com/pyKinsu/Tele-Filter-Bot/",
+    "website": "https://t.me/BOTxUPDATE",
+    "repository": "https://github.com/Devil7372/Movirwala/",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
