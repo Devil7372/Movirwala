@@ -868,7 +868,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
-                                    InlineKeyboardButton('↼ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=https://t.me/+z1ZaHp8aVUo1ZDg1),
+                                    InlineKeyboardButton('↼ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ', url=REQ_GRP),
                                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ⇀', url=SPRT_CHNL)
                                 ],[
                                     InlineKeyboardButton(" ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ", url="https://t.me/BOTxUPDATE")
