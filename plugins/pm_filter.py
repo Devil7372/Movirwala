@@ -1729,7 +1729,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/ogBestFriends")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/ogBestFriends")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
