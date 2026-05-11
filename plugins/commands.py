@@ -45,12 +45,12 @@ async def start(client, message):
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
             InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎",url=REQ_GRP), 
-            InlineKeyboardButton("📌 Uᴘᴅᴀᴛᴇs", url="https://t.me/kissuxbots")
+            InlineKeyboardButton("📌 Uᴘᴅᴀᴛᴇs", url="https://t.me/BOTxUPDATE")
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 💡", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ 📰", callback_data="about")
         ],[
-        InlineKeyboardButton(" Make Your Own Bot", url="https://GitHub.com/pykinsu/tele-filter-bot/")
+        InlineKeyboardButton(" Make Your Own Bot", url="https://t.me/xaepm")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)   
         m=await message.reply_sticker("CAACAgQAAxkBAAEOHdZn2piuieMXbUOL_7I2Iqb9ArF19QACKwoAArAqAVIMufqlVovwXzYE") 
@@ -98,12 +98,12 @@ async def start(client, message):
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
             InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎",url=REQ_GRP), 
-            InlineKeyboardButton("📌 Uᴘᴅᴀᴛᴇs", url="https://t.me/kissuxbots")
+            InlineKeyboardButton("📌 Uᴘᴅᴀᴛᴇs", url="https://t.me/BOTxUPDATE")
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 💡", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ 📰", callback_data="about")
         ],[
-        InlineKeyboardButton(" Make Your Own Bot", url="https://GitHub.com/pykinsu/tele-filter-bot/")
+        InlineKeyboardButton(" Make Your Own Bot", url="https://t.me/xaepm")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
